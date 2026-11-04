@@ -13,7 +13,7 @@ export interface BlogPost {
   author: string;
   keywords: string[];
   image: string;
-  category?: 'setup' | 'review' | 'sports' | 'tips' | 'news';
+  category?: 'setup' | 'review' | 'comparison' | 'tips' | 'news' | 'guide';
   readTime?: string;
   featured?: boolean;
   quality?: string;
